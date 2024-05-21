@@ -1,0 +1,27 @@
+{
+    "name": "bomba",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "LED&KEY TM1638": "github:rebarbora-mckvak-makecode/tm1638-makecode#c08eaac2bb5f50d0b9a857f272fbee0dc9736d50"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.28",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
