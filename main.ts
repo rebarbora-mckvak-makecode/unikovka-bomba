@@ -24,7 +24,7 @@ function vytvor_seznam_ledky () {
 let ledky: number[] = []
 music.setVolume(60)
 vytvor_seznam_ledky()
-let sekund_do_vybuchu = 600
+let sekund_do_vybuchu = 900
 tm1638.init(DigitalPin.P0, DigitalPin.P1, DigitalPin.P2)
 while (!(sekund_do_vybuchu == 0 || ledky[1] == 0 && ledky[2] == 0 && ledky[3] == 0 && ledky[4] == 1 && ledky[5] == 0 && ledky[6] == 1 && ledky[7] == 1 && ledky[8] == 0)) {
     sekund_do_vybuchu += -1
